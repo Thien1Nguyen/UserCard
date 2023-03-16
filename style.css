@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.background {
+    margin: 50px auto; /* This line is to center the profile card */
+    justify-items: center;
+    width: 600px;
+    background-color: azure;
+}
+
+.topBanner {
+    height: 100px;
+    background-color: aqua;
+}
+
+.userName {
+    margin-left: 30px;
+    font-size: 40px;
+}
+.infoBox{
+    margin-top:60px;
+}
+
+.userCircle {
+    height: inherit;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.pin {
+    width: 20px;
+    height: 30px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.gear {
+    width: 20px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    font-size: larger;
+}
+
+.title {
+    margin-left: 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 600px;
+    height: 25px;
+    margin-left: 25px;
+}
+
+li {
+    margin: 2px;
+    padding: 3px;
+    border-right: 2px solid black;
+}
+
+.edit{
+    margin-left: 30px;
+}
