@@ -8,6 +8,8 @@
 
 .background {
     margin: 50px auto; /* This line is to center the profile card */
+    border: 2px solid rgb(185, 185, 185);
+    border-radius: 5px;
     justify-items: center;
     width: 600px;
     background-color: azure;
